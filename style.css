@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: white;
+    min-height: 430px;
+    width: 52%;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.container h1 {
+    font-family: "Big Shoulders", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #ffffff;
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.container p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.75);
+    padding-bottom: 70px;
+}
+
+.container a{
+    background-color: #ffffff;
+    padding: 8px 13px;
+    border-radius: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.container div:nth-child(1) {
+    background-color: hsl(31, 77%, 52%);
+    padding: 30px;
+
+}
+
+.container div:nth-child(2) {
+    background-color: hsl(184, 100%, 22%);
+    padding: 30px;
+}
+
+.container div:nth-child(3) {
+    background-color: hsl(179, 100%, 13%);
+    padding: 30px;
+}
+
+
+
+div:nth-child(1) a{
+    color: hsl(31, 77%, 52%);
+}
+div:nth-child(2) a{
+    color: hsl(184, 100%, 22%);
+}
+div:nth-child(3) a{
+    color: hsl(179, 100%, 13%);
+}
